@@ -14,7 +14,6 @@ from tqdm import tqdm
 import random
 import collections
 
-# Device configuration
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Hyperparameters
