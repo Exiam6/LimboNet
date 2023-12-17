@@ -4,7 +4,7 @@
 
 LimboNet is a custom neural network model which is a variant of the ResNeXt and InceptionNet architecture. It is named after the "Limbo" in the movie INCEPTION consists of several stages, each implemented using the CobbBottleneck module.
 
-The CobbBottleneck class is a modified version of the bottleneck structure of ResNeXt models, mainly perserve its residual connection with cardinalityp, and Multimodal Convolutional layers in InceptionNet V2. It consists of several convolutional layers with different kernal size with maxpool, batch normalization and ReLU activations. The whole structure is shown in the next page.
+The CobbBottleneck class is a modified version of the bottleneck structure of ResNeXt models, mainly perserve its residual connection with cardinality, and Multimodal Convolutional layers in InceptionNet V2. It consists of several convolutional layers with different kernal size with maxpool, batch normalization and ReLU activations. The whole structure is shown in the next page.
 
 # Model Structure
 
